@@ -1,0 +1,173 @@
+body{
+  font-family: 'Zen Kaku Gothic New',sans-serif;
+  color: #333333;
+  background-color: #fdfdfd;
+}
+
+
+header{
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+header a{
+  font-family: 'Roboto',sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.section1{
+  padding-top: 200px;
+  padding-bottom: 230px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section1 h1{
+  font-family:'Roboto',sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 6px;
+}
+.section1 .text{
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.section2{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.section2 .image1{
+  background-image: url(../images/hector-martinez-EG49vTtKdvI-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 32%;
+  height: 330px;
+  border-radius: 16px;
+}
+.section2 .image2{
+  background-image: url(../images/onur-binay-_RpPMkqTTTg-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 32%;
+  height: 330px;
+  border-radius: 16px;
+}
+.section2 .image3{
+  background-image: url(../images/onur-binay-9jLI9Ux6IFo-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 32%;
+  height: 330px;
+  border-radius: 16px;
+}
+
+.section3 .container{
+  padding-top: 90px;
+  padding-bottom: 90px;
+  width: 90%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.section3 .container h2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  margin-bottom: 48px;
+}
+.section3 .text{
+  line-height: 2;
+}
+.section4{
+  background-color: #ededed;
+}
+.section4 .container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.section4 .row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section4 .col{
+  width: 48%;
+}
+.section4 .image4{
+  background-image: url(../images/screen-post-vYxnwamt6HE-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 360px;
+  border-radius: 16px;
+}
+.section4 h2{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+.section4 .text{
+  line-height: 2;
+}
+
+.section5 .container{
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.section5 h2{
+  font-size: 30px;
+  background-color: #333333;
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+footer{
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width:768px) {
+  .section1 h1{
+    font-size: 64px;
+  }
+  .section2 .image1{
+    width: 64%;
+    height: 230px;
+  }
+  .section3 .image1{
+    width: 17%;
+    height: 230px;
+  }
+  .section2 .image1{
+    width: 17%;
+    height: 230px;
+  }
+  .section4 col{
+    width: 100%;
+  }
+  .section4 .image4{
+    height: 260px;
+    margin-bottom: 36px;
+  }
+  .section5 h2{
+    font-size: 17px;
+  }
+
+}
